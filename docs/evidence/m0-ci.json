@@ -1,0 +1,13 @@
+{
+  "checkedOn": "2026-10-07",
+  "scope": "Initial remote CI used to enable main protection; final PR head must pass its own required checks before merge.",
+  "pullRequest": "https://github.com/chialecode/magic/pull/1",
+  "run": {
+    "conclusion": "success",
+    "databaseId": 37592466838,
+    "headSha": "5ac0c647f78404c437b602954a913695d1f0a65c",
+    "name": "CI",
+    "status": "completed",
+    "url": "https://github.com/chialecode/magic/actions/runs/37592466838"
+  }
+}

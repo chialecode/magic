@@ -1,0 +1,1 @@
+{"description":"建立 Magic 的详细架构、技术栈、技术学习手册、开源框架缺陷记录、开发规范与流程、文档质量检查及 GitHub 分支保护。本地阶段交付后，push 和 PR 由用户明确授权；首次真实 CI 成功后收敛完整 main 保护。业务服务与 Compose 实现进入后续阶段。","html_url":"https://github.com/chialecode/magic/milestone/1","number":1,"state":"open","title":"M0 · 文档与架构基础"}

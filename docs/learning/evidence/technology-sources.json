@@ -1,0 +1,228 @@
+{
+  "timezone": "Asia/Shanghai",
+  "note": "GitHub API timestamps are UTC. Latest-release metadata is evidence, not a pinned dependency or maintenance guarantee.",
+  "checkedOn": "2026-10-07",
+  "repositories": [
+    {
+      "archived": false,
+      "license": "Apache-2.0",
+      "pushedAt": "2026-10-06T15:41:43Z",
+      "repository": "spring-projects/spring-boot",
+      "stars": 81565,
+      "url": "https://github.com/spring-projects/spring-boot",
+      "latestPublishedRelease": {
+        "publishedAt": "2026-08-20T20:02:36Z",
+        "tag": "v4.1.1",
+        "url": "https://github.com/spring-projects/spring-boot/releases/tag/v4.1.1"
+      }
+    },
+    {
+      "archived": false,
+      "license": "MIT",
+      "pushedAt": "2026-09-29T13:14:46Z",
+      "repository": "gin-gonic/gin",
+      "stars": 89293,
+      "url": "https://github.com/gin-gonic/gin",
+      "latestPublishedRelease": {
+        "publishedAt": "2026-02-28T10:12:25Z",
+        "tag": "v1.12.0",
+        "url": "https://github.com/gin-gonic/gin/releases/tag/v1.12.0"
+      }
+    },
+    {
+      "archived": false,
+      "license": "MIT",
+      "pushedAt": "2026-10-06T17:31:16Z",
+      "repository": "fastapi/fastapi",
+      "stars": 102851,
+      "url": "https://github.com/fastapi/fastapi",
+      "latestPublishedRelease": {
+        "publishedAt": "2026-09-30T09:50:53Z",
+        "tag": "0.142.2",
+        "url": "https://github.com/fastapi/fastapi/releases/tag/0.142.2"
+      }
+    },
+    {
+      "archived": false,
+      "license": "MIT",
+      "pushedAt": "2026-10-06T20:21:10Z",
+      "repository": "tokio-rs/axum",
+      "stars": 27401,
+      "url": "https://github.com/tokio-rs/axum",
+      "latestPublishedRelease": {
+        "publishedAt": "2026-04-14T09:39:51Z",
+        "tag": "axum-v0.8.9",
+        "url": "https://github.com/tokio-rs/axum/releases/tag/axum-v0.8.9"
+      }
+    },
+    {
+      "archived": false,
+      "license": "MIT",
+      "pushedAt": "2026-10-07T00:24:34Z",
+      "repository": "vuejs/core",
+      "stars": 54583,
+      "url": "https://github.com/vuejs/core",
+      "latestPublishedRelease": {
+        "publishedAt": "2026-09-17T08:36:57Z",
+        "tag": "v3.5.43",
+        "url": "https://github.com/vuejs/core/releases/tag/v3.5.43"
+      }
+    },
+    {
+      "archived": false,
+      "license": "MIT",
+      "pushedAt": "2026-10-06T22:06:10Z",
+      "repository": "nuxt/nuxt",
+      "stars": 60924,
+      "url": "https://github.com/nuxt/nuxt",
+      "latestPublishedRelease": {
+        "publishedAt": "2026-10-05T22:11:57Z",
+        "tag": "v4.6.0",
+        "url": "https://github.com/nuxt/nuxt/releases/tag/v4.6.0"
+      }
+    },
+    {
+      "archived": false,
+      "license": "MIT",
+      "pushedAt": "2026-10-06T17:32:11Z",
+      "repository": "react/react",
+      "stars": 250921,
+      "url": "https://github.com/react/react",
+      "latestPublishedRelease": {
+        "publishedAt": "2026-09-09T18:01:33Z",
+        "tag": "v19.3.0",
+        "url": "https://github.com/react/react/releases/tag/v19.3.0"
+      }
+    },
+    {
+      "archived": false,
+      "license": "MIT",
+      "pushedAt": "2026-10-07T07:26:41Z",
+      "repository": "vercel/next.js",
+      "stars": 143231,
+      "url": "https://github.com/vercel/next.js",
+      "latestPublishedRelease": {
+        "publishedAt": "2026-09-30T16:13:46Z",
+        "tag": "v16.3.8",
+        "url": "https://github.com/vercel/next.js/releases/tag/v16.3.8"
+      }
+    },
+    {
+      "archived": false,
+      "license": "BSD-3-Clause",
+      "pushedAt": "2026-10-06T22:11:05Z",
+      "repository": "flutter/flutter",
+      "stars": 179359,
+      "url": "https://github.com/flutter/flutter",
+      "latestPublishedRelease": {
+        "publishedAt": "2024-01-11T18:31:57Z",
+        "tag": "3.19.0-0.1.pre",
+        "url": "https://github.com/flutter/flutter/releases/tag/3.19.0-0.1.pre"
+      }
+    },
+    {
+      "archived": false,
+      "license": "NOASSERTION",
+      "pushedAt": "2026-09-30T06:50:24Z",
+      "repository": "NervJS/taro",
+      "stars": 37709,
+      "url": "https://github.com/NervJS/taro",
+      "latestPublishedRelease": {
+        "publishedAt": "2026-09-29T08:08:21Z",
+        "tag": "v4.3.0",
+        "url": "https://github.com/NervJS/taro/releases/tag/v4.3.0"
+      }
+    },
+    {
+      "archived": false,
+      "license": "Apache-2.0",
+      "pushedAt": "2026-10-07T06:59:31Z",
+      "repository": "keycloak/keycloak",
+      "stars": 37167,
+      "url": "https://github.com/keycloak/keycloak",
+      "latestPublishedRelease": {
+        "publishedAt": "2026-10-01T05:57:20Z",
+        "tag": "26.8.0",
+        "url": "https://github.com/keycloak/keycloak/releases/tag/26.8.0"
+      }
+    },
+    {
+      "archived": false,
+      "license": "Apache-2.0",
+      "pushedAt": "2026-10-07T00:52:36Z",
+      "repository": "seaweedfs/seaweedfs",
+      "stars": 35282,
+      "url": "https://github.com/seaweedfs/seaweedfs",
+      "latestPublishedRelease": {
+        "publishedAt": "2026-09-28T15:53:48Z",
+        "tag": "4.48",
+        "url": "https://github.com/seaweedfs/seaweedfs/releases/tag/4.48"
+      }
+    },
+    {
+      "archived": false,
+      "license": "BSD-3-Clause",
+      "pushedAt": "2026-10-07T02:33:37Z",
+      "repository": "valkey-io/valkey",
+      "stars": 27387,
+      "url": "https://github.com/valkey-io/valkey",
+      "latestPublishedRelease": {
+        "publishedAt": "2026-09-01T00:01:31Z",
+        "tag": "9.1.2",
+        "url": "https://github.com/valkey-io/valkey/releases/tag/9.1.2"
+      }
+    },
+    {
+      "archived": false,
+      "license": "NOASSERTION",
+      "pushedAt": "2026-10-07T03:15:37Z",
+      "repository": "rabbitmq/rabbitmq-server",
+      "stars": 13906,
+      "url": "https://github.com/rabbitmq/rabbitmq-server",
+      "latestPublishedRelease": {
+        "publishedAt": "2026-09-14T07:24:14Z",
+        "tag": "v4.3.6",
+        "url": "https://github.com/rabbitmq/rabbitmq-server/releases/tag/v4.3.6"
+      }
+    },
+    {
+      "archived": false,
+      "license": "Apache-2.0",
+      "pushedAt": "2026-10-07T04:36:10Z",
+      "repository": "caddyserver/caddy",
+      "stars": 77442,
+      "url": "https://github.com/caddyserver/caddy",
+      "latestPublishedRelease": {
+        "publishedAt": "2026-10-03T05:58:33Z",
+        "tag": "v2.11.7",
+        "url": "https://github.com/caddyserver/caddy/releases/tag/v2.11.7"
+      }
+    },
+    {
+      "archived": false,
+      "license": "MIT",
+      "pushedAt": "2026-09-29T02:52:42Z",
+      "repository": "actions/checkout",
+      "stars": 8937,
+      "url": "https://github.com/actions/checkout",
+      "latestPublishedRelease": {
+        "publishedAt": "2026-07-20T15:10:05Z",
+        "tag": "v7.0.1",
+        "url": "https://github.com/actions/checkout/releases/tag/v7.0.1"
+      }
+    },
+    {
+      "archived": false,
+      "license": "MIT",
+      "pushedAt": "2026-10-01T19:54:23Z",
+      "repository": "actions/setup-node",
+      "stars": 4983,
+      "url": "https://github.com/actions/setup-node",
+      "latestPublishedRelease": {
+        "publishedAt": "2026-07-14T02:46:05Z",
+        "tag": "v7.0.0",
+        "url": "https://github.com/actions/setup-node/releases/tag/v7.0.0"
+      }
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+# Git remains the source of truth. Connecting an online Space is a separate action.
+root: ./
+structure:
+  readme: README.md
+  summary: docs/SUMMARY.md

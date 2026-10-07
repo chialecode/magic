@@ -1,0 +1,23 @@
+name: 功能或技术学习需求
+description: 从用户场景或技术兴趣提出一个可验证的需求
+title: "[Proposal] "
+body:
+  - type: textarea
+    id: scenario
+    attributes:
+      label: 用户场景与收益
+      description: 谁希望完成什么，为什么值得做？
+    validations:
+      required: true
+  - type: textarea
+    id: technology
+    attributes:
+      label: 技术与替代方案
+      description: 关联学习目标、开源候选、官方来源及引入成本。
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: 范围与验收
+      description: 正常路径、失败路径、指标及可延后部分。
+    validations:
+      required: true

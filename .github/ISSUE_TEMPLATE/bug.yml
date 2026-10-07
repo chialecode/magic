@@ -1,0 +1,21 @@
+name: Magic 缺陷
+description: 报告本项目行为与预期的差异
+title: "[Bug] "
+body:
+  - type: textarea
+    id: environment
+    attributes:
+      label: 版本与环境
+      description: 提交或版本、平台与必要配置，移除秘密与个人数据。
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 复现步骤、预期与实际结果
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 脱敏证据与影响

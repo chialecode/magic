@@ -1,0 +1,328 @@
+{
+  "schemaVersion": 1,
+  "currentStage": "M0",
+  "documents": [
+    {
+      "path": "USER-ACTIONS.md",
+      "kind": "entry",
+      "status": "active",
+      "scope": "用户待办",
+      "reviewed": "2026-10-07"
+    },
+    {
+      "path": "docs/dev-rules/development-workflow.md",
+      "kind": "dev-rules",
+      "status": "active",
+      "scope": "开发流程与持续演进",
+      "reviewed": "2026-10-07"
+    },
+    {
+      "path": "docs/dev-rules/coding-standards.md",
+      "kind": "dev-rules",
+      "status": "active",
+      "scope": "编码、契约与数据规范",
+      "reviewed": "2026-10-07"
+    },
+    {
+      "path": "docs/design/technology-stack.md",
+      "kind": "design",
+      "status": "draft",
+      "scope": "技术栈与采用状态",
+      "reviewed": "2026-10-07"
+    },
+    {
+      "path": "docs/design/domain-model.md",
+      "kind": "design",
+      "status": "draft",
+      "scope": "领域模型与数据一致性",
+      "reviewed": "2026-10-07"
+    },
+    {
+      "path": "docs/design/deployment.md",
+      "kind": "design",
+      "status": "draft",
+      "scope": "开发、部署与运行设计",
+      "reviewed": "2026-10-07"
+    },
+    {
+      "path": "docs/design/clients.md",
+      "kind": "design",
+      "status": "draft",
+      "scope": "客户端范围与共享设计",
+      "reviewed": "2026-10-07"
+    },
+    {
+      "path": "docs/design/architecture.md",
+      "kind": "design",
+      "status": "draft",
+      "scope": "总体架构",
+      "reviewed": "2026-10-07"
+    },
+    {
+      "path": "docs/design/api-and-events.md",
+      "kind": "design",
+      "status": "draft",
+      "scope": "API、事件与资源契约",
+      "reviewed": "2026-10-07"
+    },
+    {
+      "path": "docs/delivery/status.md",
+      "kind": "delivery",
+      "status": "active",
+      "scope": "当前执行状态",
+      "reviewed": "2026-10-07"
+    },
+    {
+      "path": "docs/delivery/stage-report.md",
+      "kind": "delivery",
+      "status": "reference",
+      "scope": "当前阶段报告",
+      "reviewed": "2026-10-07"
+    },
+    {
+      "path": "docs/delivery/stage-plan.md",
+      "kind": "delivery",
+      "status": "active",
+      "scope": "当前阶段计划",
+      "reviewed": "2026-10-07"
+    },
+    {
+      "path": "docs/delivery/roadmap-and-acceptance.md",
+      "kind": "delivery",
+      "status": "active",
+      "scope": "路线与验收",
+      "reviewed": "2026-10-07"
+    },
+    {
+      "path": "docs/decisions/README.md",
+      "kind": "decisions",
+      "status": "active",
+      "scope": "架构与工程决策",
+      "reviewed": "2026-10-07"
+    },
+    {
+      "path": "docs/decisions/0004-upstream-learning.md",
+      "kind": "decisions",
+      "status": "active",
+      "scope": "ADR-0004：将上游缺陷调查纳入学习成果",
+      "reviewed": "2026-10-07"
+    },
+    {
+      "path": "docs/decisions/0003-git-and-protection.md",
+      "kind": "decisions",
+      "status": "active",
+      "scope": "ADR-0003：阶段提交与渐进启用分支保护",
+      "reviewed": "2026-10-07"
+    },
+    {
+      "path": "docs/decisions/0002-domain-and-polyglot.md",
+      "kind": "decisions",
+      "status": "draft",
+      "scope": "ADR-0002：业务域与多语言主栈",
+      "reviewed": "2026-10-07"
+    },
+    {
+      "path": "docs/decisions/0001-documentation-first.md",
+      "kind": "decisions",
+      "status": "active",
+      "scope": "ADR-0001：文档优先的 M0",
+      "reviewed": "2026-10-07"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "kind": "entry",
+      "status": "active",
+      "scope": "Magic 开发与贡献",
+      "reviewed": "2026-10-07"
+    },
+    {
+      "path": "CLAUDE.md",
+      "kind": "entry",
+      "status": "active",
+      "scope": "Claude 工作入口",
+      "reviewed": "2026-10-07"
+    },
+    {
+      "path": "docs/dev-rules/git-and-github.md",
+      "kind": "dev-rules",
+      "status": "active",
+      "scope": "Git 与 GitHub 协作",
+      "reviewed": "2026-10-07"
+    },
+    {
+      "path": "docs/dev-rules/quality-gates.md",
+      "kind": "dev-rules",
+      "status": "active",
+      "scope": "质量门禁与实际命令",
+      "reviewed": "2026-10-07"
+    },
+    {
+      "path": "docs/dev-rules/upstream-bugs.md",
+      "kind": "dev-rules",
+      "status": "active",
+      "scope": "开源框架缺陷记录与反馈",
+      "reviewed": "2026-10-07"
+    },
+    {
+      "path": "docs/governance/documentation-policy.md",
+      "kind": "governance",
+      "status": "active",
+      "scope": "文档治理",
+      "reviewed": "2026-10-07"
+    },
+    {
+      "path": "REVIEW.md",
+      "kind": "entry",
+      "status": "active",
+      "scope": "Magic 评审口径",
+      "reviewed": "2026-10-07"
+    },
+    {
+      "path": "README.md",
+      "kind": "entry",
+      "status": "active",
+      "scope": "Magic",
+      "reviewed": "2026-10-07"
+    },
+    {
+      "path": "docs/upstream/README.md",
+      "kind": "upstream",
+      "status": "active",
+      "scope": "上游缺陷台账",
+      "reviewed": "2026-10-07"
+    },
+    {
+      "path": "docs/templates/validation-report.md",
+      "kind": "templates",
+      "status": "active",
+      "scope": "验证报告模板",
+      "reviewed": "2026-10-07"
+    },
+    {
+      "path": "docs/templates/upstream-bug.md",
+      "kind": "templates",
+      "status": "active",
+      "scope": "上游缺陷记录模板",
+      "reviewed": "2026-10-07"
+    },
+    {
+      "path": "docs/templates/technology-proposal.md",
+      "kind": "templates",
+      "status": "active",
+      "scope": "技术学习需求提案",
+      "reviewed": "2026-10-07"
+    },
+    {
+      "path": "docs/templates/decision-record.md",
+      "kind": "templates",
+      "status": "active",
+      "scope": "ADR 模板",
+      "reviewed": "2026-10-07"
+    },
+    {
+      "path": "docs/templates/change-proposal.md",
+      "kind": "templates",
+      "status": "active",
+      "scope": "需求变更提案",
+      "reviewed": "2026-10-07"
+    },
+    {
+      "path": "docs/templates/agent-handoff.md",
+      "kind": "templates",
+      "status": "active",
+      "scope": "工作交接模板",
+      "reviewed": "2026-10-07"
+    },
+    {
+      "path": "AGENTS.md",
+      "kind": "entry",
+      "status": "active",
+      "scope": "Magic 开发者与 Agent 工作入口",
+      "reviewed": "2026-10-07"
+    },
+    {
+      "path": "docs/SUMMARY.md",
+      "kind": "entry",
+      "status": "active",
+      "scope": "阅读目录",
+      "reviewed": "2026-10-07"
+    },
+    {
+      "path": "docs/README.md",
+      "kind": "entry",
+      "status": "active",
+      "scope": "Magic 文档导航",
+      "reviewed": "2026-10-07"
+    },
+    {
+      "path": "docs/product/principles.md",
+      "kind": "product",
+      "status": "active",
+      "scope": "项目原则与已确认要求",
+      "reviewed": "2026-10-07"
+    },
+    {
+      "path": "docs/learning/README.md",
+      "kind": "learning",
+      "status": "reference",
+      "scope": "Magic 技术学习手册",
+      "reviewed": "2026-10-07"
+    },
+    {
+      "path": "docs/learning/06-debugging-upstream.md",
+      "kind": "learning",
+      "status": "reference",
+      "scope": "从框架现象到可复现缺陷",
+      "reviewed": "2026-10-07"
+    },
+    {
+      "path": "docs/learning/05-engineering-and-delivery.md",
+      "kind": "learning",
+      "status": "reference",
+      "scope": "Monorepo、交付与可观测性",
+      "reviewed": "2026-10-07"
+    },
+    {
+      "path": "docs/learning/04-data-and-infrastructure.md",
+      "kind": "learning",
+      "status": "reference",
+      "scope": "数据、一致性与基础组件",
+      "reviewed": "2026-10-07"
+    },
+    {
+      "path": "docs/learning/03-frontends-and-clients.md",
+      "kind": "learning",
+      "status": "reference",
+      "scope": "Web 与多端技术",
+      "reviewed": "2026-10-07"
+    },
+    {
+      "path": "docs/learning/02-backend-frameworks.md",
+      "kind": "learning",
+      "status": "reference",
+      "scope": "四种后端框架与业务分工",
+      "reviewed": "2026-10-07"
+    },
+    {
+      "path": "docs/learning/01-method.md",
+      "kind": "learning",
+      "status": "reference",
+      "scope": "学习方法与选型证据",
+      "reviewed": "2026-10-07"
+    },
+    {
+      "path": "docs/requirements.md",
+      "kind": "entry",
+      "status": "active",
+      "scope": "Magic 需求与实施路线",
+      "reviewed": "2026-10-07"
+    },
+    {
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "kind": "entry",
+      "status": "active",
+      "scope": "变更结果",
+      "reviewed": "2026-10-07"
+    }
+  ]
+}
