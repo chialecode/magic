@@ -1,0 +1,31 @@
+{
+  "checkedOn": "2026-10-07",
+  "pending": "First authorized push and PR, actual CI success, then replace this same ruleset with .github/rulesets/main.json.",
+  "appliedProfile": "bootstrap",
+  "repository": "chialecode/magic",
+  "ruleset": {
+    "rules": [
+      {
+        "type": "deletion"
+      },
+      {
+        "type": "non_fast_forward"
+      },
+      {
+        "type": "required_linear_history"
+      }
+    ],
+    "conditions": {
+      "ref_name": {
+        "exclude": [],
+        "include": [
+          "refs/heads/main"
+        ]
+      }
+    },
+    "name": "main-protection",
+    "enforcement": "active",
+    "bypass_actors": [],
+    "id": 24635292
+  }
+}

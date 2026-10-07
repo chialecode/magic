@@ -1,0 +1,34 @@
+name: 疑似上游框架缺陷
+description: 在 Magic 内登记疑似第三方问题，不自动向上游发送
+title: "[Upstream] "
+body:
+  - type: input
+    id: dependency
+    attributes:
+      label: 依赖名称与精确版本
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 最小复现与对照实验
+      description: 独立步骤、预期、实际、干净环境及相邻版本验证。
+    validations:
+      required: true
+  - type: dropdown
+    id: classification
+    attributes:
+      label: 当前分类
+      options:
+        - suspected：尚未排除使用问题
+        - usage-error：使用或配置问题
+        - confirmed：有充分复现或上游确认
+  - type: textarea
+    id: mitigation
+    attributes:
+      label: 影响、临时规避与回归
+  - type: textarea
+    id: upstream
+    attributes:
+      label: 已有上游链接与公开反馈授权
+      description: 没有链接或未获授权时如实说明，不自动发布 Issue。

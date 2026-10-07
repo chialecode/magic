@@ -1,0 +1,16 @@
+node_modules/
+dist/
+coverage/
+.env
+.env.*
+!.env.example
+.local/
+.DS_Store
+Thumbs.db
+*.log
+__pycache__/
+.venv/
+target/
+.gradle/
+.dart_tool/
+build/
