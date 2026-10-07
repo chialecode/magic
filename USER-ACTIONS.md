@@ -6,9 +6,9 @@
 
 状态：已授权。依据：2026-10-07 用户明确同意推送、创建 PR，在 CI/CD 没有问题后合并并清理分支。
 
-授权范围：推送本地 `main` 的空 README 根提交，再推送 `docs/m0-foundation` 的 M0 阶段提交，创建目标为 `main` 的 M0 PR；检查并修复 CI 问题，成功后启用完整保护、squash 合并，清理对应远端和本地阶段分支。执行结果记录在阶段报告与 GitHub PR。此授权不包含产品发布或 GitBook App 安装。
+授权范围：推送本地 `main` 的空 README 根提交，再推送 `docs/m0-foundation` 的 M0 阶段提交，创建目标为 `main` 的 M0 PR；检查并修复 CI 问题，成功后启用完整保护、squash 合并，清理对应远端和本地阶段分支。执行记录见 [PR #1](https://github.com/chialecode/magic/pull/1)及阶段报告。此授权不包含产品发布或 GitBook App 安装。
 
-远端基础保护可在空仓库启用；完整 PR 与必需 CI 保护应在首次 PR 的 `repository-quality` 成功产出后启用，见 [Git 规则](docs/dev-rules/git-and-github.md)。保护配置已获授权，不额外重复请求配置许可。
+首次 PR 的 `repository-quality` 已成功，完整 PR 与必需 CI 保护已经启用并回读验证，见 [Git 规则](docs/dev-rules/git-and-github.md)。合并仍需核对最终 PR 提交的检查结果，已有授权无需重复申请。
 
 ## Q-001：仓库整体开源许可证
 

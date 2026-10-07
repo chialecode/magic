@@ -1,9 +1,20 @@
 {
   "checkedOn": "2026-10-07",
-  "pending": "First authorized push and PR, actual CI success, then replace this same ruleset with .github/rulesets/main.json.",
-  "appliedProfile": "bootstrap",
   "repository": "chialecode/magic",
+  "appliedProfile": "main",
   "ruleset": {
+    "id": 24635292,
+    "name": "main-protection",
+    "enforcement": "active",
+    "conditions": {
+      "ref_name": {
+        "exclude": [],
+        "include": [
+          "refs/heads/main"
+        ]
+      }
+    },
+    "bypass_actors": [],
     "rules": [
       {
         "type": "deletion"
@@ -13,19 +24,36 @@
       },
       {
         "type": "required_linear_history"
+      },
+      {
+        "type": "pull_request",
+        "parameters": {
+          "required_approving_review_count": 0,
+          "dismiss_stale_reviews_on_push": false,
+          "required_reviewers": [],
+          "require_code_owner_review": false,
+          "require_last_push_approval": false,
+          "required_review_thread_resolution": true,
+          "require_extra_approval_for_unattributed_changes": true,
+          "allowed_merge_methods": [
+            "squash"
+          ]
+        }
+      },
+      {
+        "type": "required_status_checks",
+        "parameters": {
+          "strict_required_status_checks_policy": false,
+          "do_not_enforce_on_create": false,
+          "required_status_checks": [
+            {
+              "context": "repository-quality",
+              "integration_id": 15368
+            }
+          ]
+        }
       }
-    ],
-    "conditions": {
-      "ref_name": {
-        "exclude": [],
-        "include": [
-          "refs/heads/main"
-        ]
-      }
-    },
-    "name": "main-protection",
-    "enforcement": "active",
-    "bypass_actors": [],
-    "id": 24635292
-  }
+    ]
+  },
+  "note": "Full PR and GitHub Actions checks enabled after successful initial PR CI. No permanent bypass actor."
 }

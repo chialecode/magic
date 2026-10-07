@@ -22,7 +22,7 @@
 2. 用户授权后，仅推送空 README 的本地 main，再推送 M0 分支并创建 PR。基础保护阶段还不能阻止普通快进直推，维护者必须遵守本页授权与 PR 规则。
 3. 首个 PR 真实产生成功的 `repository-quality` 后，将同一 ruleset 更新为 [main](../../.github/rulesets/main.json) 并回读验证。
 4. 最终保护要求 PR、解决 review threads、GitHub Actions 的必需检查及线性历史。当前单人维护，批准人数为 0、无强制 code-owner approval，无常驻 bypass actor。
-5. 合并仍单独征求用户同意；不能把配置保护或授权推送当作合并授权。
+5. 合并需要明确用户授权；会话已经包含合并授权时直接复用，不能仅从配置保护或推送授权推导。
 
 未来检查更名也先让新检查产出，再切换 ruleset。不得因为 CI 失败自动删除保护或跳过验证。
 
@@ -32,7 +32,7 @@
 
 工作流名 `CI`，固定 job／状态名 `repository-quality`；面向 main 的 PR 与手动触发，无路径过滤，无自动定时任务或 main push 重复检查。只读 contents 权限，checkout 不保留凭据，Actions 固定完整 SHA。
 
-CI 使用锁文件安装并运行同一个 `node scripts/verify.mjs`。M0 不构建业务镜像、发布站点或运行未实现应用。当前没有 GitHub CI 成功记录，不能将本地通过代替远端运行。
+CI 使用锁文件安装并运行同一个 `node scripts/verify.mjs`。M0 不构建业务镜像、发布站点或运行未实现应用。[首次远端 CI](https://github.com/chialecode/magic/actions/runs/37592466838)已成功，完整 main 保护已经启用；每次合并仍核对当前 PR 提交的真实检查结果。
 
 GitHub App ID 15368 已通过 API 确认为 `github-actions`；必需检查绑定此 App。JSON 是可审阅配置，不会因提交到仓库而自动应用。
 
